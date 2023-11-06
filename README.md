@@ -1,15 +1,15 @@
 # Text-data-analysis
 리뷰 텍스트 데이터를 감정 분석을 하고, 감정에 따른 리뷰 별점의 가중치 부여.
   
-yes24 crawling_21.ipynb :  
+- yes24 crawling_21.ipynb :  
 Yes24 책 리뷰를 selenium을 사용해 동적 크롤링으로 데이터를 가져 옴.  
 현재 코드는 IT모바일 카테고리에서 쓸 수 있는 크롤러이고, 각 카테고리별로 크롤러가 있다.
 
-감정 분석 - 코드 삭제.ipynb :   
+- 감정 분석 - 코드 삭제.ipynb :   
 크롤링으로 만든 데이터 전처리 수행.
   사용자의 아이디가 없거나 리뷰 텍스트가 없으면 삭제  
 CNN을 사용해 데이터 감정 분석
 
-yes_24_total_reduce.xlsx :  
+- yes_24_total_reduce.xlsx :  
 원본 데이터의 용량 제한 때문에 원본이 아닌 15000개 데이터
 
